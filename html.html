@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>桃園旅遊景點導覽</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 16px;
+      background-color: #3498db;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .card a:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>我的旅遊景點導覽</h1>
+  <div class="card-container">
+    <div class="card">
+      <img src="https://travel.taoyuan.gov.tw/content/images/attractions/12496/640x480_file61c2e6b7adbc6.jpg" alt="大溪老街">
+      <div class="card-content">
+        <h3>大溪老街</h3>
+        <p>體驗古色古香的建築與傳統小吃，是桃園最具歷史的老街之一。</p>
+        <a href="https://goo.gl/maps/JbRaBAXHZ6Za7U7y9" target="_blank">詳細資訊</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://travel.taoyuan.gov.tw/content/images/attractions/13603/640x480_file61c2e7c2107b1.jpg" alt="石門水庫">
+      <div class="card-content">
+        <h3>石門水庫</h3>
+        <p>著名的大壩與湖光山色，是騎腳踏車與賞景的好去處。</p>
+        <a href="https://goo.gl/maps/Bv8uE4MoRjc2" target="_blank">詳細資訊</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://travel.taoyuan.gov.tw/content/images/attractions/12634/640x480_file61c2e8bfa51a1.jpg" alt="小烏來天空步道">
+      <div class="card-content">
+        <h3>小烏來天空步道</h3>
+        <p>挑戰透明玻璃步道，俯瞰壯麗瀑布與峽谷美景。</p>
+        <a href="https://goo.gl/maps/S3pKj1iLNgL2" target="_blank">詳細資訊</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
